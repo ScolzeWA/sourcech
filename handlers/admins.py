@@ -9,7 +9,7 @@ from pyrogram.types import Message
 from cache.admins import admins
 from helpers.channelmusic import get_chat_id
 from helpers.decorators import authorized_users_only, errors
-from helpers.filters import command, other_filters
+from helpers.filters import command
 from callsmusic import callsmusic
 from callsmusic.queues import queues
 
